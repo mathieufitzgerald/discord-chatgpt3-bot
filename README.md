@@ -1,9 +1,15 @@
-# discord-chatgpt3-bot
+# chatGPT-discord-bot
 
-> ### use OpenAI's ChatGPT In your own server!
+> ### This is a project that provides you to build your own Discord bot using ChatGPT
 >
-
+> ⭐️ If this repo helps you, a star is the biggest support for me and also helps you stay up-to-date 
 ---
+> **Warning**
+> ### Thank for [Reverse Engineered ChatGPT](https://github.com/acheong08/ChatGPT) efforts in updating the new API. I have tried to implement it, but encountered some issues using xvfb and chrome in a docker environment, so the update was not successfully completed
+
+> #### 2023-01-17 Update: [OpenAI releasing official API soon](https://twitter.com/OpenAI/status/1615160228366147585?s=20&t=jWxfpTMFQBHgsSZAA_IDng), wait for the official API to be released before proceeding with further updates
+>
+> #### 2022-12-15 Update: Cloudflare are currently preventing the bot from receiving any further messages, the bot is using the official GPT-3 API now
 
 ## Features
 
@@ -11,12 +17,18 @@
 * `/private` ChatGPT switch to private mode
 * `/public`  ChatGPT switch to public  mode
 
-### Modes
+### Chat
+
+![image](https://user-images.githubusercontent.com/89479282/206497774-47d960cd-1aeb-4fba-9af5-1f9d6ff41f00.gif)
+
+### Mode
 
 * `public mode (default)`  the bot directly reply on the channel
 
+  ![image](https://user-images.githubusercontent.com/89479282/206565977-d7c5d405-fdb4-4202-bbdd-715b7c8e8415.gif)
 * `private mode` the bot's reply can only be seen by who use the command
 
+  ![image](https://user-images.githubusercontent.com/89479282/206565873-b181e600-e793-4a94-a978-47f806b986da.gif)
 
 # Setup
 

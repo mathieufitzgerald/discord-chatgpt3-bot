@@ -1,5 +1,5 @@
 {
-    "discord_bot_token":"YOUR DISCORD BOT TOKEN",
-    "discord_channel_id":"YOUR CHANNEL ID",
-    "openAI_key": "YOUR OPENAI KEY"
+    "discord_bot_token":"",
+    "discord_channel_id":"",
+    "openAI_key": ""
 }
